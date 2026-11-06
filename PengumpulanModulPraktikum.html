@@ -1,0 +1,185 @@
+<!DOCTYPE html>
+<html lang="id">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Pengumpulan Tugas Web Desain - Chalista Erika Putri</title>
+    <style>
+        * {
+            box-sizing: border-box;
+            margin: 0;
+            padding: 0;
+        }
+
+        body {
+            font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+            background-color: #f1f5f9;
+            color: #334155;
+            padding: 20px;
+        }
+
+        .container {
+            max-width: 650px;
+            margin: 20px auto;
+            background: #ffffff;
+            padding: 30px;
+            border-radius: 12px;
+            box-shadow: 0 4px 12px rgba(0,0,0,0.06);
+            border: 1px solid #e2e8f0;
+        }
+
+        header {
+            text-align: center;
+            border-bottom: 2px solid #2563eb;
+            padding-bottom: 15px;
+            margin-bottom: 25px;
+        }
+
+        h1 {
+            color: #1e293b;
+            font-size: 1.5rem;
+            margin-bottom: 5px;
+        }
+
+        p.student {
+            color: #64748b;
+            font-size: 0.95rem;
+        }
+
+        /* Desain Dropdown Folder Modul */
+        .module-group {
+            display: flex;
+            flex-direction: column;
+            gap: 12px;
+        }
+
+        details {
+            background: #f8fafc;
+            border: 1px solid #cbd5e1;
+            border-radius: 8px;
+            overflow: hidden;
+            transition: all 0.2s ease;
+        }
+
+        details[open] {
+            border-color: #2563eb;
+            box-shadow: 0 2px 8px rgba(37, 99, 235, 0.1);
+        }
+
+        summary {
+            padding: 14px 18px;
+            font-weight: 600;
+            cursor: pointer;
+            color: #1e293b;
+            background: #f8fafc;
+            user-select: none;
+            display: flex;
+            justify-content: space-between;
+            align-items: center;
+            font-size: 0.95rem;
+        }
+
+        summary:hover {
+            background-color: #eff6ff;
+            color: #2563eb;
+        }
+
+        .badge-count {
+            background: #e2e8f0;
+            color: #475569;
+            font-size: 0.75rem;
+            padding: 2px 8px;
+            border-radius: 12px;
+            font-weight: normal;
+        }
+
+        /* Isi File di Dalam Modul */
+        .sub-files {
+            padding: 10px 18px 15px 25px;
+            background: #ffffff;
+            border-top: 1px solid #e2e8f0;
+        }
+
+        .sub-files a {
+            display: flex;
+            justify-content: space-between;
+            align-items: center;
+            padding: 10px 8px;
+            color: #2563eb;
+            text-decoration: none;
+            font-size: 0.9rem;
+            font-weight: 500;
+            border-bottom: 1px dashed #e2e8f0;
+            transition: all 0.2s ease;
+        }
+
+        .sub-files a:last-child {
+            border-bottom: none;
+        }
+
+        .sub-files a:hover {
+            color: #1d4ed8;
+            background-color: #f0f9ff;
+            padding-left: 14px;
+            border-radius: 4px;
+        }
+
+        .sub-files a span.arrow-icon {
+            font-size: 0.8rem;
+            opacity: 0.7;
+        }
+
+        footer {
+            text-align: center;
+            margin-top: 30px;
+            color: #94a3b8;
+            font-size: 0.85rem;
+        }
+    </style>
+</head>
+<body>
+
+    <div class="container">
+        <header>
+            <h1>PENGUMPULAN PRAKTIKUM WEB DESAIN</h1>
+            <p class="student">Nama: Chalista Erika Putri</p>
+        </header>
+
+        <div class="module-group">
+
+            <!-- MODUL 1 (5 FILE BERASAL DARI FOLDER PRAKTIKUM) -->
+            <details>
+                <summary>
+                    <span>Modul 1: HTML</span>
+                    <span class="badge-count">5 File</span>
+                </summary>
+                <div class="sub-files">
+                    <a href="Praktikum_Web_Desain/MODUL 1/Latihan_01_01.html"><span>📄 Latihan 1.1</span> <span class="arrow-icon">&rarr;</span></a>
+                    <a href="Praktikum_Web_Desain/MODUL 1/Latihan_02_02.html"><span>📄 Latihan 1.2</span> <span class="arrow-icon">&rarr;</span></a>
+                    <a href="Praktikum_Web_Desain/MODUL 1/Latihan_03_03.html"><span>📄 Latihan 1.3</span> <span class="arrow-icon">&rarr;</span></a>
+                    <a href="Praktikum_Web_Desain/MODUL 1/Latihan_04_04.html"><span>📄 Latihan 1.4</span> <span class="arrow-icon">&rarr;</span></a>
+                    <a href="Praktikum_Web_Desain/MODUL 1/Latihan_05_05.html"><span>📄 Latihan 1.5</span> <span class="arrow-icon">&rarr;</span></a>
+                </div>
+            </details>
+
+            <!-- MODUL 2 -->
+            <details>
+                <summary>
+                    <span>Modul 2: Git</span>
+                    <span class="badge-count">1 File</span>
+                </summary>
+                <div class="sub-files">
+                    <a href="Praktikum_Web_Desain/MODUL 2/Laporan_Praktikum_Web_Desain_Modul_2_Revisi.pdf"><span>📄 Latihan 2.1</span> <span class="arrow-icon">&rarr;</span></a>
+                </div>
+            </details>
+
+           
+        </div>
+
+        <footer>
+            <p>&copy; 2026 Tugas Web Desain - Chalista Erika Putri</p>
+        </footer>
+    </div>
+
+</body>
+</html>

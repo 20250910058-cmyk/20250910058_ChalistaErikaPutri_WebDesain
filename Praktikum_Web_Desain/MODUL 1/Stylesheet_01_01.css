@@ -1,0 +1,39 @@
+
+body {
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    background-color: #faf0e6; /* Linen pastel yang lembut */
+    color: #4a4e69; /* Abu-abu keunguan yang hangat */
+    padding: 30px;
+    margin: 0;
+}
+
+.header-1 {
+    font-size: 28px;
+    color: #6b705c; /* Hijau sage pastel */
+    margin-bottom: 5px;
+}
+
+.header-2 {
+    font-size: 20px;
+    color: #b5838d; /* Pink keunguan / Dusty Rose pastel */
+    margin-top: 0;
+    margin-bottom: 15px;
+}
+
+.alamat {
+    font-size: 14px;
+    color: #6c757d; /* Muted gray pastel */
+    background-color: #ffffff; /* Kotak latar putih bersih */
+    padding: 15px;
+    border-radius: 10px;
+    border-left: 5px solid #e07a5f; /* Akses garis oranye pastel/terrakota */
+    display: inline-block;
+    box-shadow: 0 4px 6px rgba(0, 0, 0, 0.05);
+}
+
+hr {
+    border: 0;
+    height: 2px;
+    background-color: #d8e2dc; /* Garis soft mint pastel */
+    margin-top: 20px;
+}
